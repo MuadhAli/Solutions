@@ -73,19 +73,24 @@ custom.css and it will override the style in this file. You have been warned! :)
 \*------------------------------------*/
 
 :root {
-	--global--color-primary: #209159;
-	--global--color-primary-90: rgba(50, 195, 108, 0.9);
-	--global--color-primary-70: rgba(50, 195, 108, 0.7);
-	--global--color-heading: #006f3d;
-	--global--color-secondary: #00522d;
-	--global--color-body: #9b9b9b;
-	--global--color-white: #ffffff;
-	--global--color-white-90: rgba(255, 255, 255, 0.9);
-	--global--color-gray: #f9f9f9;
-	--global--font-body: 'HelvetLight','Roboto', sans-serif;
-	--global--font-heading: 'HelvetLight','IBM Plex Sans', sans-serif;
-	--global--font-secondary: 'HelvetLight','Heebo', sans-serif;
+    --global--color-primary: #1E3A8A; /* Dark Blue */
+    --global--color-primary-90: rgba(30, 58, 138, 0.9);
+    --global--color-primary-70: rgba(30, 58, 138, 0.7);
+    --global--color-heading: #1E40AF; /* Slightly lighter dark blue */
+    --global--color-secondary: #0F172A; /* Very dark navy blue */
+    --global--color-body: #64748B; /* Muted blue-gray */
+    --global--color-white: #ffffff;
+    --global--color-white-90: rgba(255, 255, 255, 0.9);
+    --global--color-gray: #F1F5F9; /* Very light gray-blue */
+    
+    /* Typography */
+    /* --global--font-body: 'Roboto', sans-serif; */
+    /* --global--font-heading: 'IBM Plex Sans', sans-serif; */
+    /* --global--font-secondary: 'Heebo', sans-serif; */
+    --global--font-light: 'HelvetLight';
+    --global--font-bold: 'HelvetBold';
 }
+
 
 /*------------------------------------*\
 		#RESET
@@ -781,21 +786,21 @@ blockquote .author {
 } */
 
 .bg-overlay-theme:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#209159D9), color-stop(82%, #209159));
-	background-image: -o-linear-gradient(top, #209159D9 0%, #209159 82%);
-	background-image: linear-gradient(180deg, #209159D9 0%, #209159 82%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#572eec), color-stop(82%, #572eec));
+	background-image: -o-linear-gradient(top, #5659e2d9 0%, #572eec 82%);
+	background-image: linear-gradient(180deg, #5659e2d9 0%, #572eec 82%);
 }
 
 .bg-overlay-theme2:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #006f3d), to(#006f3dE6));
-	background-image: -o-linear-gradient(top, #006f3d 50%, #006f3dE6 100%);
-	background-image: linear-gradient(180deg, #006f3d 50%, #006f3dE6 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #272086e6), to(#272086e6));
+	background-image: -o-linear-gradient(top, #6b5ceb 50%, #272086e6 100%);
+	background-image: linear-gradient(180deg, #6b5ceb 50%, #272086e6 100%);
 }
 
 .bg-overlay-theme3:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#209159F2), color-stop(86%, #209159));
-	background-image: -o-linear-gradient(top, #209159F2 0%, #209159 86%);
-	background-image: linear-gradient(180deg, #209159F2 0%, #209159 86%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2613cf), color-stop(86%, #2613cf));
+	background-image: -o-linear-gradient(top, #2613cf 0%, #2613cf 86%);
+	background-image: linear-gradient(180deg, #2613cf 0%, #2613cf 86%);
 }
 
 .bg-overlay-theme4 {
@@ -809,9 +814,9 @@ blockquote .author {
 }
 
 .bg-overlay-theme5:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(46%, #209159), color-stop(144%, #2091595c));
-	background-image: -o-linear-gradient(top, #209159 46%, #2091595c 144%);
-	background-image: linear-gradient(180deg, #209159 46%, #2091595c 144%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(46%, #209159), color-stop(144%, #5659e2d9));
+	background-image: -o-linear-gradient(top, #5659e2d9 46%, #2091595c 144%);
+	background-image: linear-gradient(180deg, #5659e2d9 46%, #2091595c 144%);
 }
 
 .bg-overlay-video:before {
@@ -2261,7 +2266,7 @@ ul.list-icons li i {
 	-ms-transform-origin: top;
 	transform-origin: top;
 	/* background-color        : var(--global--color-heading); */
-	background-color: #209159;
+	background-color: #4215be;
 	-webkit-transition: -webkit-transform .24s ease-in-out;
 	transition: -webkit-transform .24s ease-in-out;
 	-o-transition: transform .24s ease-in-out;
@@ -18919,7 +18924,7 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer {
-	background-color: #006f3d;
+	background-color: #240f72;
 	padding-top: 0;
 	padding-bottom: 0;
 	position: relative;

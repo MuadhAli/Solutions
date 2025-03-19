@@ -14,22 +14,25 @@
   }
   
 
-:root {
-    --global--color-primary: #209159;
-    --global--color-primary-90: rgba(50, 195, 108, 0.9);
-    --global--color-primary-70: rgba(50, 195, 108, 0.7);
-    --global--color-heading: #006f3d;
-    --global--color-secondary: #00522d;
-    --global--color-body: #9b9b9b;
+  :root {
+    --global--color-primary: #1E3A8A; /* Dark Blue */
+    --global--color-primary-90: rgba(30, 58, 138, 0.9);
+    --global--color-primary-70: rgba(30, 58, 138, 0.7);
+    --global--color-heading: #1E40AF; /* Slightly lighter dark blue */
+    --global--color-secondary: #0F172A; /* Very dark navy blue */
+    --global--color-body: #64748B; /* Muted blue-gray */
     --global--color-white: #ffffff;
     --global--color-white-90: rgba(255, 255, 255, 0.9);
-    --global--color-gray: #f9f9f9;
+    --global--color-gray: #F1F5F9; /* Very light gray-blue */
+    
+    /* Typography */
     /* --global--font-body: 'Roboto', sans-serif; */
     /* --global--font-heading: 'IBM Plex Sans', sans-serif; */
     /* --global--font-secondary: 'Heebo', sans-serif; */
     --global--font-light: 'HelvetLight';
     --global--font-bold: 'HelvetBold';
 }
+
 
 /*  ===================== 
         VIDEO CSS 
